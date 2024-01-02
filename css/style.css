@@ -1,0 +1,219 @@
+body {
+  font-family: 'Questrial';
+}
+
+#toggle {
+  margin-right:20px;
+}
+
+
+#header {
+  font-family: 'Questrial';
+  background-color: #142850;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.d-flex {
+  padding-right:50px;
+}
+
+
+.src-icon{
+  height:20px;
+  width: 20px;
+  filter: brightness(0) invert(1);
+}
+
+
+
+
+.navbar-brand {
+  font-family: 'Cinzel';
+  font-weight: 600;
+  font-size: 3rem !important;
+}
+.navbar-pic {
+  filter: brightness(0) invert(1);
+}
+
+
+.nav-item {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+ul.navbar-nav a:hover {
+
+  color:#00909E !important;
+}
+
+
+#main {
+  background-color:#DAE1E7;
+  padding:100px 100px 0 100px;
+}
+
+.main-text {
+  font-family: "Questrial";
+  font-weight:700;
+  font-size: 5rem;
+  color: #27496D;
+  padding-bottom: 50px;
+}
+
+.main-img{
+  mix-blend-mode: multiply;
+  width:900px;
+  height:900px;
+  position:relative;
+  display:inline-block;
+  left:-120px;
+  bottom: 180px;
+}
+
+
+#features {
+  background-color: #27496D;
+  text-align: center;
+  padding: 100px;
+}
+.choose-us {
+  font-family: 'Cinzel';
+  font-size: 3rem;
+  color: #DAE1E7;
+  padding-bottom:20px;
+}
+
+.feature-img{
+  width:100px;
+  height: 100px;
+  filter: brightness(0) invert(1);
+}
+
+
+.feature-text {
+  font-family: "Questrial";
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #DAE1E7;
+}
+
+.feature-text:hover {
+  color: #00909E !important;
+}
+
+
+#testimonials {
+  background-color: #DAE1E7;
+  padding:100px;
+  text-align: center;
+}
+
+
+.carousel-inner {
+  padding:50px;
+}
+
+.carousel-img {
+  height:100px;
+  width:100px;
+  border-radius: 100%;
+  margin-bottom: 50px;
+
+}
+
+.carousel-name {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.carousel-text{
+  font-family: "Questrial";
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color:#27496D;
+}
+
+.carousel-name {
+  font-style: italic;
+  font-family: "Cinzel";
+  font-size: 1rem;
+  color: #142850;
+}
+
+
+
+
+
+
+#prices {
+  padding: 100px;
+  background-color: #27496D;
+  text-align: center;
+}
+
+.card {
+  
+  text-align: center;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.card img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.card:hover img {
+  transform: scale(1.25);
+}
+
+.card-title{
+  color:#DAE1E7;
+  font-family: "Questrial";
+  font-weight: 600;
+  padding-top: 25px;
+}
+
+.card-text {
+  color:#DAE1E7;
+  font-family: "Questrial";
+}
+
+
+#footer {
+  padding: 100px;
+  background-color: #DAE1E7;
+
+}
+
+.footer-text {
+  font-family: 'Cinzel';
+  font-size: 3rem;
+  color: #00909E;
+  padding-bottom:20px;
+}
+
+.footer-img {
+  width:50px;
+  height:50px;
+  margin:50px;
+}
+
+
+
+.p-footer {
+  font-style: italic;
+  font-family: "Cinzel";
+  font-size: 1rem;
+  color: #grey;
+}
+
+
+.prices-item {
+
+  margin:0 auto;
+}
